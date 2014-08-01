@@ -1,0 +1,37 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+  background-color: #222;
+}
+
+.control {
+  margin: 5px;
+}
+
+.screen-size:before {
+  content: "Screen";
+  display: block;
+  font-size: 10px;
+}
+
+.page-size:before {
+  content: "Page";
+  display: block;
+  font-size: 10px;
+}
+
+.controls {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: 140px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #eee;
+}
