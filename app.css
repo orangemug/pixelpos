@@ -9,22 +9,6 @@ body {
   background-color: #222;
 }
 
-.control {
-  margin: 5px;
-}
-
-.screen-size:before {
-  content: "Screen";
-  display: block;
-  font-size: 10px;
-}
-
-.page-size:before {
-  content: "Page";
-  display: block;
-  font-size: 10px;
-}
-
 .controls {
   position: absolute;
   right: 20px;
@@ -32,6 +16,16 @@ body {
   width: 140px;
   padding: 10px;
   text-align: center;
-  text-transform: uppercase;
   color: #eee;
 }
+
+label {
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.control {
+  margin: 5px;
+}
+
